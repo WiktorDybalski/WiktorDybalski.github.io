@@ -6,35 +6,31 @@ html {
 
 * {
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
     background-image: url("images/4.jpg");
-    margin: 0;
-    padding: 0;
-    border: 0;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
     color: #ffffff;
 }
 
 header {
-    padding-bottom: 0px;
     height: 10vh;
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
 }
 
 .con_to_navbar {
-    margin: 0;
-    width: 40%;
-    height: 80%;
-    padding: 5px;
+    width: 50%;
+    height: 100%;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
 }
 
 a {
@@ -43,10 +39,11 @@ a {
 }
 
 .home, .about_me, .skills, .reach_me, .port {
-    margin-left: 55px;
+    margin-left: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
     cursor: pointer;
     transition: .5s;
-
 }
 
 .home {
@@ -86,42 +83,40 @@ a {
 }
 
 .con_to_port {
-    width: 60%;
-    height: 80%;
-    margin-right: 40px;
+    width: 50%;
+    height: 100%;
+    margin-right: 4%;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-    margin-top: 0;
 }
 
 .port {
-    padding: 0;
-    margin-top: 25px;
-    justify-self: center;
-    align-self: center;
+    margin-top: 7%;
+    display: flex;
+    align-self: flex-end;
 }
 
 .port:hover {
     color: #2980b9;
-    scale: 1.1;
+    scale: 1.2;
 }
 
 nav {
-    margin: 7% 15%;
-    height: 51vh;
+    height: 75vh;
     display: flex;
     justify-content: flex-end;
 }
 
 .hello {
-    height: 60%;
+    height: 90%;
     width: 60%;
-    padding: 45px;
+    padding: 8% 1% 5% 1%;
 }
 
 .Hi {
     font-size: 55px;
+    margin-bottom: 0;
 }
 
 .agh_student {
@@ -130,26 +125,25 @@ nav {
 }
 
 .for_buttons {
-    margin-top: 100px;
-    margin-left: 0;
+    margin-top: 7%;
+    margin-left: 2%;
     display: flex;
     justify-content: flex-start;
 }
 
 .b1 {
     cursor: pointer;
-    margin-left: 5px;
     padding: 12px 35px;
     background-color: #00abf0;
     font-size: 22px;
     border-radius: 10px;
     border: 4px solid #00abf0;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 }
 
 .b1:hover {
     background-color: #00abf0; /* Zmiana koloru tła po najechaniu myszką */
-    transform: scale(1.1); /* Powiększenie przycisku po najechaniu myszką */
+    transform: scale(1.2); /* Powiększenie przycisku po najechaniu myszką */
 }
 
 .b2 {
@@ -159,15 +153,15 @@ nav {
     background-color: inherit;
     font-size: 22px;
     border-radius: 10px;
-    border: 4px solid #00abf0;
-    transition: all 0.3s ease;
+    border: 5px solid #00abf0;
+    transition: all 0.5s ease;
     color: #00abf0;
 }
 
 .b2:hover {
     background-color: #00abf0; /* Zmiana koloru tła po najechaniu myszką */
-    transform: scale(1.1); /* Powiększenie przycisku po najechaniu myszką */
-    color: silver;
+    transform: scale(1.2); /* Powiększenie przycisku po najechaniu myszką */
+    color: white;
 }
 .div_to_scroll1 {
     background-color: #081b29;
@@ -180,20 +174,20 @@ nav {
 .div_to_scroll, .div_to_scroll0 {
     width: 100%;
     height: 15%;
-    margin: 0;
     display: flex;
     justify-content: center;
 }
 
 .div_to_scroll0 {
+    height: 15vh;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin: 0;
+
 }
 .fa-brands {
-    scale: 1.5;
-    margin-left: 50px;
+    scale: 1.6;
+    margin-left: 40px;
     cursor: pointer;
     transition: 1s;
 }
@@ -203,42 +197,34 @@ nav {
 
 }
 .div_to_scroll {
-    width: 50%;
-    margin: 0;
-    height: 100%;
+    width: 100%;
+    height: 15vh;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 .div_to_scroll2 {
     width: 100%;
-    margin: 0;
-    height: 100%;
+    height: 13vh;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
 .div_for_social {
     width: 45%;
-    margin: 0;
     margin-left: 2%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    border: 0;
-    padding-right: 0;
 }
 .for_arrow {
     width: 50%;
-    margin: 0;
     height: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
-    padding-left: 0;
-    border: 0;
 }
 .button_to_scroll, .button_to_scroll0{
     cursor: pointer;
@@ -248,7 +234,7 @@ nav {
 
 .button_to_scroll0 {
     justify-self: center;
-    align-self: center;
+    align-self: flex-start;
 }
 
 .button_to_scroll:hover, .button_to_scroll0:hover{
@@ -258,51 +244,41 @@ nav {
 section {
     background-color: #081b29;
     width: 100%;
-    padding: 5%;
-    height: 70%;
-    padding-top: 0;
-    margin-top: 0;
+    height: 89vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-bottom: 0;
-    padding-bottom: 0;
 }
 
 .about_me_section {
     background-color: inherit;
     border-radius: 15%;
-    padding: 4% 4% 2%;
-    margin: 0;
+    padding: 3% 0% 5% 0%;
     display: flex;
+    justify-content: center;
     width: 80%;
-    height: 55%;
-    margin-bottom: 0;
+    height: 100%;
 }
 
 .with_img {
-    padding-right: 0;
-    height: 20%;
+    height: 100%;
     width: 40%;
-    border: 10px solid inherit;
-    border-radius: 20%;
-    overflow: hidden;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.profile_img {
+    border: 20px solid inherit;
+    border-radius: 25%;
 }
 
 .with_text {
-    height: 100%;
-    width: 50%;
-    padding: 5%;
-    padding-top: 0;
-    padding-left: 0;
+    height: 90%;
+    width: 60%;
+    padding: 0 5% 5%;
 }
 
 .div_for_cv {
     width: 100%;
-    margin-top: 15%;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    margin-top: 7%;
+    padding: 0;
     display: flex;
     justify-content: center;
     background-color: inherit;
@@ -318,13 +294,13 @@ section {
     cursor: pointer;
     transition: .5s;
     border-radius: 10%;
-    border: 2px solid #03e9f4;
-    padding: 5% 6%;
+    border: 3px solid #03e9f4;
+    padding: 5% 5%;
     font-size: 20px;
 }
  .a_for_cv {
      width: 50%;
-     height: 40%;
+     height: 50%;
  }
 .cv:hover {
     scale: 1.1;
@@ -345,10 +321,8 @@ img {
 }
 
 article {
-    margin-top: 50px;
-    margin-bottom: 3%;
-    padding-bottom: 0;
-    height: 800px;
+    height: 89vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -356,22 +330,20 @@ article {
 
 .div_for_skills {
     background-color: inherit;
-    margin-bottom: 0;
-    border-radius: 15%;
     display: flex;
     flex-wrap: wrap;
-    width: 160vh;
-    height: 80vh;
+    width: 100%;
+    height: 100%;
     justify-content: center;
     align-items: center;
 }
 
 
 .skill1 {
-    padding: 10px;
-    width: 400px;
-    height: 400px;
-    margin: 10px 30px;
+    padding: 7px;
+    width: 30%;
+    height: 47%;
+    margin: 10px 20px;
     border-radius: 15px; /* Zaokrągl rogi */
     background: linear-gradient(135deg, #4a235a, #2e4053);
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
@@ -380,7 +352,7 @@ article {
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
-    transition: background .5s ease
+    transition: background 5s ease
 }
 .skill1:hover {
     transition: inherit;
@@ -389,13 +361,17 @@ article {
     border: 5px solid #001f3f;
 }
 
+.u2_for_skills {
+    line-height: 220%;
+    font-size: 120%;
+}
 .h2_skills {
     color: #2980b9;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .a2 {
     color: darkgrey;
-    padding: 0;
-    padding-top: 5%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), #2980b9), url("images/to_form.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -415,25 +391,33 @@ article {
     justify-content: center;
     align-items: center;
     width: 40%;
-    height: 100vh;
+    height: 70%;
 }
 
 form {
     width: 90%;
     max-width: 600px;
 }
+.h2_form {
+    margin: 1% 0 0;
+}
+.h3_form {
+    margin-top: 2%;
+    margin-bottom: 4%;
+
+}
 .input_form {
-    margin-bottom: 30px;
+    margin-bottom: 5%;
     position: relative;
 }
 
 input, textarea {
-    width: 100%;
+    width: 90%;
     height: 100%;
-    padding: 15px;
+    padding: 2%;
     outline: 0;
-    border: 4px solid #fff;
-    border-radius: 10%;
+    border: 5px solid #fff;
+    border-radius: 5%;
     color: white;
     background: transparent;
     font-size: 15px;
@@ -488,4 +472,51 @@ textarea:focus~label, textarea:valid~label {
     background-color: #2980b9;
     color: #081b29;
     font-size: 12px;
+}
+
+
+/*Small laptops*/
+@media screen and (max-width: 1600px) {
+    .body {
+        overflow: hidden;
+    }
+    .skill1 {
+        width: 28%;
+        justify-content: center;
+        float: left;
+    }
+    .h2_skills {
+        font-size: large;
+    }
+    .u2_for_skills {
+        font-size: medium;
+    }
+}
+/*Mobile Phones*/
+@media screen and (max-width: 500px) {
+    article {
+        padding: 0;
+        margin: 0;
+        justify-content: flex-start;
+    }
+    .div_for_skills {
+        margin: 0;
+        border: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .skill1 {
+        width: 100%;
+        justify-content: center;
+        float: none;
+    }
+}
+
+/*Tablets*/
+@media screen and (max-width: 800px) {
+    .skill1 {
+        width: 46%;
+        justify-content: center;
+        float: none;
+    }
 }
