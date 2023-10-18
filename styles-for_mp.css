@@ -1,0 +1,34 @@
+/*Mobile Phones*/
+@media screen and (max-width: 500px) {
+    body {
+
+    }
+    header {
+    }
+    .con_to_navbar {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .con_to_port {
+        display: none;
+    }
+    article {
+        padding: 0;
+        margin: 0;
+        justify-content: flex-start;
+    }
+    .div_for_skills {
+        margin: 0;
+        border: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .skill1 {
+        width: 100%;
+        justify-content: center;
+        float: none;
+    }
+}
