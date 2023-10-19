@@ -14,18 +14,19 @@
     <link rel="stylesheet" href="styles-skills.css">
     <link rel="stylesheet" href="styles-form.css">
     <link rel="stylesheet" href="styles-for_mp.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles-for_tab.css">
+    <script defer src="script.js"></script>
     <link rel="icon" href="images/icon.jpg" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
     <script src="https://kit.fontawesome.com/65e5e1ca5d.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My_profile</title>
-<!-- BODY-->
+    <!-- BODY-->
 </head>
 <body>
 <!--INTRO-->
 <div class="intro">
-<!--    HEADER-->
+    <!--    HEADER-->
     <header id="h">
         <div class="con_to_navbar">
             <a href="#h"><h3 class="home">Home</h3></a>
@@ -37,7 +38,7 @@
             <h2 class="port"><b>Portfolio.</b></h2>
         </div>
     </header>
-<!--    NAVBAR-->
+    <!--    NAVBAR-->
     <nav>
         <div class="hello">
             <h1 class="Hi"> Hi, I'm Wiktor Dybalski</h1>
@@ -52,7 +53,7 @@
             </div>
         </div>
     </nav>
-<!--    SCROLL WITH SOCIAL -->
+    <!--    SCROLL WITH SOCIAL -->
     <div class="div_to_scroll0">
         <div class="div_for_social">
             <a href="https://www.facebook.com/wiktord2003" class="social_img"><i
@@ -73,11 +74,11 @@
 <section id="s1">
     <div class="about_me_section">
         <div class="with_text">
-            <h2> I am a 2nd year student of Computer Science at the Faculty of Computer Science at the AGH
+            <h2> I am a second year student of Computer Science at the Faculty of Computer Science at the AGH
                 University of
                 Science and Technology in Krakow.</h2>
-            <h2>So far I have had the opportunity to program in python, Java (I took
-                part in a 3-month bootcamp in Java), SQL, web development languages, C and C++.</h2>
+            <h2>So far I have had the opportunity to program in Python, Java (I took
+                part in a 3-month bootcamp in Java), SQL, Front-end Web Development Skills, C and C++.</h2>
             <h2>I am passionate about new technologies, automotive industry, and artificial intelligence.</h2>
             <div class="div_for_cv">
                 <a class="a_for_cv"
@@ -158,21 +159,24 @@
     </div>
 </article>
 <article id="a2" class="a2">
-    <h2 class="h2_form">Contact Form</h2>
-    <h3 class="h3_form">If you have any questions, do not hestitate to let me know!</h3>
+    <div class="div_for_h2_form"><h2>Contact Form</h2></div>
+    <div class="div_for_h3_form"><h3>If you have any questions, do not hestitate to let me know!</h3></div>
     <div class="div_for_reach_me">
         <form>
             <div class="input_form">
                 <input type="text" id="name" required>
                 <label for="name"><i class="fa-solid fa-user"></i> Name</label>
+                <span class="error" id="nameError"></span><br>
             </div>
             <div class="input_form">
                 <input type="text" id="surname" required>
                 <label for="surname"><i class="fa-solid fa-user"></i> Surname</label>
+                <span class="error" id="surnameError"></span><br>
             </div>
             <div class="input_form">
-                <input type="text" id="email" required>
+                <input type="text" id="email" name="email" required>
                 <label for="email"><i class="fa-solid fa-envelope"></i> E-mail</label>
+                <span class="error" id="emailError"></span><br>
             </div>
             <div class="input_form">
                 <textarea id="message" rows="8" required></textarea>

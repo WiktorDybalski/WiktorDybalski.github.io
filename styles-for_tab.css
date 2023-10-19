@@ -1,0 +1,23 @@
+@media screen and (max-width: 1220px) and (min-width: 550px){
+    .skill1 {
+        padding: 1%;
+        width: 29%;
+        height: 45%;
+        margin: 1% 1%;
+        border-radius: 15%;
+        background: linear-gradient(135deg, #4a235a, #2e4053);
+        box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+        color: #fff;
+        line-height: 30px;
+        font-size: 13px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background 5s ease
+    }
+    .h2_skills {
+        color: #2980b9;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 19px;
+    }
+}

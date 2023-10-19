@@ -17,11 +17,11 @@ article {
 
 
 .skill1 {
-    padding: 7px;
+    padding: 1%;
     width: 30%;
     height: 47%;
-    margin: 10px 20px;
-    border-radius: 15px; /* Zaokrągl rogi */
+    margin: 1% 1%;
+    border-radius: 10%;
     background: linear-gradient(135deg, #4a235a, #2e4053);
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
     color: #fff;
@@ -46,4 +46,5 @@ article {
     color: #2980b9;
     margin-top: 0;
     margin-bottom: 0;
+    font-size: 24px;
 }
