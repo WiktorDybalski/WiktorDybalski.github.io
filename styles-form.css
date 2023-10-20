@@ -95,7 +95,6 @@ textarea:focus~label, textarea:valid~label {
     outline: none;
     background: linear-gradient(rgba(0, 0, 0, 0.5), transparent) fixed;
     border: 4px solid white;
-    border-radius: 10%;
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
     width: 100%;
     cursor: pointer;

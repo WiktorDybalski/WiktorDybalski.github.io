@@ -74,6 +74,7 @@
     .con_to_port {
         display: none;
     }
+
     .div_to_scroll0 {
         width: 100%;
         height: 15%;
@@ -93,6 +94,7 @@
         align-items: flex-end;
         justify-content: flex-start;
     }
+
     .fa-brands {
         scale: 1.7;
         margin-left: 4vw;
@@ -189,7 +191,12 @@
         font-weight: bold;
 
     }
-
+    .h2_skills {
+        font-size: 19px;
+    }
+    .u2_for_skills {
+        font-size: 15px;
+    }
     .a2 {
         height: 100vh;
         width: 100%;
@@ -217,12 +224,32 @@
         align-items: center;
 
     }
+
+    .div_for_h2_form {
+        display: flex;
+        align-items: flex-start;
+        height: 1%;
+    }
+
+    .div_for_h3_form {
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
+    }
+
     .h2_form {
         margin: 1% 0 0;
+        font-size: 17px;
+        height: 1%;
     }
+
     .h3_form {
-        margin: 1% 12% 6% 12%;
+        margin: 0 12% 0 12%;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
     }
+
     .input_form {
         width: 80%;
         margin-bottom: 7%;
@@ -237,13 +264,16 @@
         padding: 2%;
         outline: 0;
     }
+
     input {
         width: 100%;
     }
+
     .form_button {
-       width: 80%;
+        width: 80%;
     }
-    .skill1:hover{
+
+    .skill1:hover {
         pointer-events: none;
     }
 
