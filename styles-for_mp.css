@@ -82,6 +82,12 @@
         align-items: flex-end;
         justify-content: flex-start;
     }
+    .for_arrow {
+        display: none;
+    }
+    .div_to_scroll {
+        display: none;
+    }
 
     .div_for_social {
         border: 0;
@@ -192,10 +198,12 @@
 
     }
     .h2_skills {
-        font-size: 19px;
+        font-size: 20px;
+        line-height: 3vh;
     }
     .u2_for_skills {
-        font-size: 15px;
+        font-size: 16px;
+        line-height: 4vh;
     }
     .a2 {
         height: 100vh;
@@ -277,4 +285,19 @@
         pointer-events: none;
     }
 
+    .p_footer {
+        line-height: 2vh;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .h2_skills {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .u2_for_skills {
+        font-size: 15px;
+        line-height: 20px;
+    }
 }
