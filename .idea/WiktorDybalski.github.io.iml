@@ -8,5 +8,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="typed.js" level="application" />
+    <orderEntry type="library" name="65e5e1ca5d" level="application" />
   </component>
 </module>

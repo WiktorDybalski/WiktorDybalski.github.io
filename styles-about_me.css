@@ -23,6 +23,21 @@ section {
 .profile_img {
     border: 20px solid inherit;
     border-radius: 25%;
+    animation: zoomIn 4s ease forwards, floatButtons 6s ease-in-out infinite;
+    animation-delay: 0s, 4s;
+}
+
+@keyframes floatButtons {
+    0% {
+        transform: translateY(1px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(1px);
+    }
+
 }
 
 .with_text {
@@ -30,6 +45,7 @@ section {
     width: 60%;
     padding: 0 5% 5%;
     font-size: 90%;
+    animation: slideRight 3s ease forwards;
 }
 
 .div_for_cv {
@@ -39,6 +55,8 @@ section {
     display: flex;
     justify-content: center;
     background-color: inherit;
+    animation: slideRight 4s ease forwards;
+    animation-delay: 0s, 4s;
 }
 
 .cv {
@@ -54,6 +72,7 @@ section {
     border: 3px solid #03e9f4;
     padding: 5% 5%;
     font-size: 20px;
+    animation: floatButtons 7s ease-in-out infinite;
 }
 .a_for_cv {
     width: 50%;
@@ -75,4 +94,26 @@ section {
 img {
     max-width: 100%;
     max-height: 100%;
+}
+
+@keyframes  zoomIn{
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@keyframes floatImage {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
