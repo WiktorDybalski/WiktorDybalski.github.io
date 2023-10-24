@@ -1,19 +1,25 @@
-// Utwórz obserwator
-const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            // Element jest widoczny na ekranie, uruchom animację
-            entry.target.classList.add('animate');
-            // Przestań obserwować ten element po pierwszym przejściu przez granicę widoku
-            observer.unobserve(entry.target);
-        }
-    });
-}, { threshold: 0.5 }); // threshold określa, ile procentów elementu musi być widoczne, aby zadziałał callback
+// document.getElementById("reload0").addEventListener("click", function () {
+//     location.reload();
+// });
+document.getElementById("reload0").addEventListener("click", function() {
+    document.getElementById("s1").scrollIntoView({ behavior: 'smooth' });
 
-// Pobierz wszystkie elementy, które mają być animowane
-const animatedElements = document.querySelectorAll('.element');
+    setTimeout(function() {
+        location.reload();
+    }, 500);
+});
 
-// Dodaj każdy element do obserwatora
-animatedElements.forEach(element => {
-    observer.observe(element);
+document.getElementById("reload1").addEventListener("click", function() {
+    document.getElementById("a1").scrollIntoView({ behavior: 'smooth' });
+
+    setTimeout(function() {
+        location.reload();
+    }, 500);
+});
+document.getElementById("reload2").addEventListener("click", function() {
+    document.getElementById("a2").scrollIntoView({ behavior: 'smooth' });
+
+    setTimeout(function() {
+        location.reload();
+    }, 500);
 });

@@ -56,17 +56,6 @@ a {
 
 }
 
-@keyframes slideTop {
-    0% {
-        transform: translateY(100px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
-
 .home:hover {
     color: #2980b9;
     scale: 1.1;
@@ -116,16 +105,6 @@ a {
     animation: slideRight 3s ease forwards;
 }
 
-@keyframes slideRight {
-    0% {
-        transform: translateX(-100px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
 .port:hover {
     color: #2980b9;
     scale: 1.2;
@@ -162,14 +141,8 @@ nav {
     background-image: linear-gradient(#00abf0, #00abf0);
     background-repeat: no-repeat;
     -webkit-background-clip: text;
-    background-position: -1000px 0;
+    background-position: -1000px, 0;
     animation: backcolor 5s linear infinite alternate;
-}
-
-@keyframes backcolor {
-    100% {
-        background-position: 0 0;
-    }
 }
 .for_buttons {
     margin-top: 7%;
