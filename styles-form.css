@@ -1,4 +1,9 @@
 .a2 {
+    opacity: 0;
+}
+
+.a2.show {
+    opacity: 1;
     color: darkgrey;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), #2980b9), url("images/to_form.jpg");
     background-attachment: fixed;
@@ -10,6 +15,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    transition: opacity 1s ease-in-out;
 }
 
 .div_for_reach_me {
@@ -27,8 +33,10 @@ form {
     animation-delay: 300ms;
     width: 100%;
     max-width: 600px;
+    transition: opacity 1s ease-in-out;
 
 }
+
 .div_for_h2_form, .div_for_h3_form {
     height: 8%;
     display: flex;
@@ -36,14 +44,17 @@ form {
     align-items: center;
     width: 70%;
 }
+
 .div_for_h3_form {
     display: flex;
     align-items: flex-start;
 }
+
 .h2_form {
     animation: slideRight 2s ease forwards;
     margin: 0;
 }
+
 .h3_form {
     animation: slideRight 2s ease forwards;
     animation-delay: 200ms;
@@ -51,6 +62,7 @@ form {
     margin-bottom: 4%;
 
 }
+
 .input_form {
     margin-bottom: 5%;
     position: relative;
@@ -73,6 +85,7 @@ footer {
     display: flex;
     justify-content: center;
 }
+
 label {
     height: 100%;
     position: absolute;
@@ -84,16 +97,18 @@ label {
     transition: 0.5s;
 }
 
-input:focus~label, input:valid~label {
+input:focus ~ label, input:valid ~ label {
     top: -35px;
     font-size: 14px;
 
 }
-textarea:focus~label, textarea:valid~label {
+
+textarea:focus ~ label, textarea:valid ~ label {
     top: -35px;
     font-size: 14px;
 
 }
+
 .form_button {
     padding: 10px 0;
     color: white;
@@ -110,6 +125,7 @@ textarea:focus~label, textarea:valid~label {
     scale: 1.1;
     background: linear-gradient(rgba(0, 0, 0, 0.5), #081b29);
 }
+
 .p_footer {
     background-color: #2980b9;
     color: #081b29;
