@@ -1,5 +1,14 @@
 .a2 {
     opacity: 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .a2.show {
@@ -71,7 +80,7 @@ form {
 input, textarea {
     width: 100%;
     height: 100%;
-    padding: 2%;
+    padding: 1%;
     outline: 0;
     border: 5px solid #fff;
     color: white;
@@ -119,6 +128,7 @@ textarea:focus ~ label, textarea:valid ~ label {
     width: 100%;
     cursor: pointer;
     transition: 1s;
+
 }
 
 .form_button:hover {
@@ -130,4 +140,40 @@ textarea:focus ~ label, textarea:valid ~ label {
     background-color: #2980b9;
     color: #081b29;
     font-size: 12px;
+}
+
+.input_form.success input {
+    border-color: #09c372;
+}
+
+.input_form.success textarea {
+    border-color: #09c372;
+}
+
+.input_form.error input {
+    border-color: #ff3860;
+
+}
+
+.input_form.error textarea {
+    border-color: #ff3860;
+}
+
+.input_form .error {
+    color: #ff3860;
+    font-size: 10px;
+    height: 13px;
+}
+
+.success-message {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }

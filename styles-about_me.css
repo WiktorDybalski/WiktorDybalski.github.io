@@ -32,7 +32,7 @@ section.show {
     width: 40%;
 }
 .profile_img {
-    border: 20px solid inherit;
+    border: 10px double #03e9f4;
     border-radius: 25%;
     animation: zoomIn 4s ease forwards, floatButtons 6s ease-in-out infinite;
     animation-delay: 0s, 4s;

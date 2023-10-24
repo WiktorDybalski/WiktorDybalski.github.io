@@ -49,7 +49,7 @@
                 <a href="#a1">
                     <button class="b1"><b>Hire me</b></button>
                 </a>
-                <a href="#a2">
+                <a href="#form">
                     <button class="b2"><b>Let's Talk</b></button>
                 </a>
             </div>
@@ -168,27 +168,28 @@
     <div class="div_for_h3_form"><h3 class="h3_form">If you have any questions, do not hestitate to let me know!</h3>
     </div>
     <div class="div_for_reach_me">
-        <form>
+        <form id="forms" action=/">
             <div class="input_form">
-                <input type="text" id="name" required>
+                <input type="text" id="name">
                 <label for="name"><i class="fa-solid fa-user"></i> Name</label>
                 <span class="error" id="nameError"></span><br>
             </div>
             <div class="input_form">
-                <input type="text" id="surname" required>
+                <input type="text" id="surname">
                 <label for="surname"><i class="fa-solid fa-user"></i> Surname</label>
                 <span class="error" id="surnameError"></span><br>
             </div>
             <div class="input_form">
-                <input type="text" id="email" name="email" required>
+                <input type="text" id="email">
                 <label for="email"><i class="fa-solid fa-envelope"></i> E-mail</label>
                 <span class="error" id="emailError"></span><br>
             </div>
             <div class="input_form">
-                <textarea id="message" rows="8" required></textarea>
+                <textarea id="message" rows="5"></textarea>
                 <label for="message"><i class="fa-solid fa-message"></i> Let me know</label>
+                <span class="error" id="messageError"></span><br>
             </div>
-            <button class="form_button" type="submit">SUBMIT</button>
+            <button class="form_button" type="submit"><b>SUBMIT</b></button>
         </form>
     </div>
     <footer class="p_footer">
