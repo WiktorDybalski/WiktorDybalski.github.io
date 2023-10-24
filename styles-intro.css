@@ -25,6 +25,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 header {
     height: 10%;
     display: flex;
@@ -136,7 +137,7 @@ nav {
 
 .agh_student {
     font-size: 40px;
-    -webkit-text-stroke: 2px #00abf0;
+    -webkit-text-stroke: 1px #00abf0;
     color: transparent;
     background-image: linear-gradient(#00abf0, #00abf0);
     background-repeat: no-repeat;
@@ -144,6 +145,7 @@ nav {
     background-position: -1000px, 0;
     animation: backcolor 5s linear infinite alternate;
 }
+
 .for_buttons {
     margin-top: 7%;
     margin-left: 2%;
@@ -185,6 +187,7 @@ nav {
     transform: scale(1.2); /* Powiększenie przycisku po najechaniu myszką */
     color: white;
 }
+
 .div_to_scroll, .div_to_scroll0 {
     width: 100%;
     height: 15%;
@@ -199,11 +202,13 @@ nav {
     cursor: pointer;
     transition: 1s;
 }
+
 .fa-brands:hover {
     scale: 2;
     color: #2980b9;
 
 }
+
 .div_for_social {
     width: 45%;
     margin-left: 2%;
@@ -213,6 +218,7 @@ nav {
     align-items: flex-end;
     justify-content: flex-start;
 }
+
 .for_arrow {
     width: 50%;
     height: 100%;
@@ -220,12 +226,13 @@ nav {
     align-items: flex-end;
     justify-content: flex-start;
 }
-.button_to_scroll, .button_to_scroll0{
+
+.button_to_scroll, .button_to_scroll0 {
     cursor: pointer;
     background-color: inherit;
     border: 0;
 }
 
-.button_to_scroll:hover, .button_to_scroll0:hover{
+.button_to_scroll:hover, .button_to_scroll0:hover {
     transform: scale(1.2);
 }
