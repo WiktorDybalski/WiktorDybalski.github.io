@@ -2,6 +2,7 @@
     opacity: 0;
     background-attachment: fixed;
     background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), #081b29), url("images/to_form.jpg");
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -9,6 +10,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    transition: opacity 1s ease-in-out;
 }
 
 .a2.show {
@@ -24,7 +26,6 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    transition: opacity 1s ease-in-out;
 }
 
 .div_for_reach_me {
@@ -133,7 +134,7 @@ textarea:focus ~ label, textarea:valid ~ label {
 
 .form_button:hover {
     scale: 1.1;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), #081b29);
+    background: linear-gradient(rgba(0, 0, 0, 1), #081b29);
 }
 
 .p_footer {
