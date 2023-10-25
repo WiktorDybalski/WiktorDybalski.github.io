@@ -102,10 +102,7 @@ const validateInputs = () => {
         setSuccess(message);
     }
 
-    if (nameValue && surnameValue && emailValue && messageValue) {
-        // Tutaj możesz wywołać dodatkową funkcję do wysłania formularza na serwer, na przykład:
-        // sendFormToServer();
-        // Po pomyślnym wysłaniu możesz wyświetlić komunikat o sukcesie
+    if (nameValue && surnameValue && emailValue && (isValidEmail(emailValue)) && messageValue) {
         removeSuccessMessage();
         displaySuccessMessage();
     } else {
@@ -118,6 +115,9 @@ const displaySuccessMessage = () => {
     successMessage.classList.add('success-message');
     document.body.appendChild(successMessage);
     forms.reset();
+    setTimeout(() => {
+        removeSuccessMessage();
+    }, 4000);
 };
 
 const removeSuccessMessage = () => {
@@ -131,6 +131,11 @@ forms.addEventListener('submit', e => {
     validateInputs();
 
 })
+document.addEventListener('visibilitychange', () => {
+    if (formSection.hidden) {
+        removeSuccessMessage();
+    }
+});
 
 introObserver.observe(introSection);
 s1Observer.observe(s1Section);

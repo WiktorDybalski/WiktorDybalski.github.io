@@ -14,7 +14,7 @@
 .a2.show {
     opacity: 1;
     color: darkgrey;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), #2980b9), url("images/to_form.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), #081b29), url("images/to_form.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -137,8 +137,8 @@ textarea:focus ~ label, textarea:valid ~ label {
 }
 
 .p_footer {
-    background-color: #2980b9;
-    color: #081b29;
+    background-color: #081b29;
+    color: white;
     font-size: 12px;
 }
 
@@ -166,7 +166,7 @@ textarea:focus ~ label, textarea:valid ~ label {
 }
 
 .success-message {
-    background-color: #4CAF50;
+    background: linear-gradient(100deg, transparent, green);
     color: white;
     padding: 20px;
     text-align: center;
@@ -175,5 +175,5 @@ textarea:focus ~ label, textarea:valid ~ label {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
