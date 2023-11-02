@@ -17,8 +17,7 @@
         margin-right: 2vw;
         padding-left: 5px;
         padding-right: 5px;
-        cursor: pointer;
-        transition: .5s;
+        transition: 0s;
         font-size: 3vw;
         scale: 1.1;
     }
