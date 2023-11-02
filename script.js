@@ -38,7 +38,7 @@ const a1Observer = new IntersectionObserver(entries => {
             a1Section.classList.remove('show');
         }
     });
-}, {threshold: 0.3});
+}, {threshold: 0.1});
 
 const formObserver = new IntersectionObserver(entries => {
     entries.forEach(entry => {

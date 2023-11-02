@@ -107,18 +107,6 @@ label {
     transition: 0.5s;
 }
 
-input:focus ~ label, input:valid ~ label {
-    top: -35px;
-    font-size: 14px;
-
-}
-
-textarea:focus ~ label, textarea:valid ~ label {
-    top: -35px;
-    font-size: 14px;
-
-}
-
 .form_button {
     padding: 10px 0;
     color: white;
