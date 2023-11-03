@@ -21,6 +21,7 @@
         font-size: 3vw;
         scale: 1.1;
     }
+
     nav {
         height: 80%;
         display: flex;
@@ -53,15 +54,18 @@
         justify-content: center;
         padding: 1vw;
     }
+
     .for_buttons.a {
         padding: 1vw;
     }
+
     .b1, .b2 {
         font-size: 3vh;
         width: 40vw;
         height: 10vh;
         padding: 1vw;
     }
+
     .b2 {
         font-size: 3vh;
     }
@@ -94,9 +98,11 @@
         align-items: flex-end;
         justify-content: flex-start;
     }
+
     .for_arrow {
         display: none;
     }
+
     .div_to_scroll {
         display: none;
     }
@@ -220,14 +226,17 @@
         font-weight: bold;
 
     }
+
     .h2_skills {
         font-size: 5vw;
         line-height: 3vh;
     }
+
     .u2_for_skills {
         font-size: 4vw;
         line-height: 3vh;
     }
+
     .a2 {
         height: 100vh;
         width: 100%;
@@ -326,6 +335,7 @@
         font-size: 18px;
         line-height: 20px;
     }
+
     .u2_for_skills {
         font-size: 15px;
         line-height: 20px;
