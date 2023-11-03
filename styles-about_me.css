@@ -34,7 +34,7 @@ section.show {
 .profile_img {
     border: 10px double #03e9f4;
     border-radius: 25%;
-    animation: zoomIn 4s ease forwards, floatButtons 6s ease-in-out infinite;
+    animation: floatButtons 6s ease-in-out infinite;
     animation-delay: 0s, 4s;
 }
 
@@ -43,7 +43,6 @@ section.show {
     width: 60%;
     padding: 0 5% 5%;
     font-size: 90%;
-    animation: slideRight 3s ease forwards;
 }
 
 .div_for_cv {
@@ -53,7 +52,6 @@ section.show {
     display: flex;
     justify-content: center;
     background-color: inherit;
-    animation: slideRight 4s ease forwards;
     animation-delay: 0s, 4s;
 }
 
@@ -70,7 +68,6 @@ section.show {
     border: 3px solid #03e9f4;
     padding: 5% 5%;
     font-size: 20px;
-    animation: floatButtons 7s ease-in-out infinite;
 }
 .a_for_cv {
     width: 50%;

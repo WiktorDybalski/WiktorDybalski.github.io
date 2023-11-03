@@ -39,7 +39,6 @@
 }
 
 form {
-    animation: slideTop 3s ease forwards;
     animation-delay: 300ms;
     width: 100%;
     max-width: 600px;
@@ -61,12 +60,10 @@ form {
 }
 
 .h2_form {
-    animation: slideRight 2s ease forwards;
     margin: 0;
 }
 
 .h3_form {
-    animation: slideRight 2s ease forwards;
     animation-delay: 200ms;
     margin-top: 2%;
     margin-bottom: 4%;

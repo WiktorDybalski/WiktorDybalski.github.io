@@ -1,23 +1,173 @@
-@media screen and (max-width: 1220px) and (min-width: 550px){
+@media screen and (max-width: 1250px) and (min-width: 1000px) {
+    .home, .about_me, .skills, .reach_me, .port {
+        font-size: 1vw;
+        scale: 1.4;
+    }
+
+    .con_to_port {
+        width: 50%;
+        height: 100%;
+        margin-right: 4%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .port {
+        margin-top: 0;
+        display: flex;
+        align-self: center;
+    }
+
+    h2.port {
+        margin-bottom: 0;
+    }
+
+    .with_text {
+        padding: 5% 5%;
+        font-size: 1vw;
+        scale: 1.1;
+    }
+
+    .cv {
+        font-size: 17px;
+        width: 110%;
+    }
+
+}
+
+@media screen and (max-width: 1000px) and (min-width: 800px) {
+    .home, .about_me, .skills, .reach_me, .port {
+        font-size: 1vw;
+        margin: 1vw 1vw 1vw 3vw;
+        scale: 1.4;
+    }
+
+    .port {
+        margin-top: 0;
+        display: flex;
+        align-self: center;
+    }
+
+    h2.port {
+        margin-bottom: 0;
+    }
+
+    nav {
+        padding: 0 3vw 0 0;
+    }
+
+    .about_me_section {
+        padding-top: 10vw;
+        padding-bottom: 0;
+    }
+
+    .with_text {
+        padding: 5% 5%;
+        font-size: 1vw;
+        scale: 1.1;
+    }
+
+    .with_img {
+        height: 50vh;
+        width: 30vw;
+    }
+    .cv {
+        font-size: 15px;
+        width: 120%;
+    }
+
+    .hello {
+        height: 90%;
+        width: 60%;
+        padding: 15vh 3vw 0 0;
+    }
+
+    .h3_form {
+        font-size: 1vw;
+        scale: 1.5;
+
+    }
+
+}
+
+@media screen and (max-width: 800px) and (min-width: 600px) {
+    .home, .about_me, .skills, .reach_me, .port {
+        font-size: 1vw;
+        margin: 1vw 1vw 1vw 3vw;
+        scale: 1.4;
+    }
+
+    .port {
+        margin-top: 0;
+        display: flex;
+        align-self: center;
+    }
+
+    h2.port {
+        margin-bottom: 0;
+    }
+
+    nav {
+        height: 75%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hello {
+        height: 90%;
+        width: 60%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .b1, .b2 {
+        width: 170px;
+        padding: 1vw;
+    }
+
+    .about_me_section {
+        padding-top: 10vw;
+        padding-bottom: 0;
+    }
+
+
+    .with_text {
+        padding: 10% 5% 0 5%;
+        font-size: 1vw;
+    }
+    .with_img {
+        padding: 10% 0 0 0;
+        height: 350px;
+        width: 250px;
+    }
+    .cv {
+        font-size: 15px;
+        width: 150%;
+    }
+
     .skill1 {
-        padding: 1%;
+        padding: 1% 1% 0 1%;
         width: 29%;
         height: 45%;
         margin: 1% 1%;
         border-radius: 15%;
-        background: linear-gradient(135deg, #4a235a, #2e4053);
-        box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
-        color: #fff;
         line-height: 30px;
-        font-size: 13px;
-        font-weight: bold;
-        cursor: pointer;
-        transition: background 5s ease
+        font-size: 1vw;
     }
+
     .h2_skills {
         color: #2980b9;
         margin-top: 0;
         margin-bottom: 0;
-        font-size: 19px;
+        font-size: 2vw;
+        line-height: 200%;
+    }
+    .u2_for_skills {
+        scale: 1.1;
     }
 }
+
