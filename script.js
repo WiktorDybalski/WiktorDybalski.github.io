@@ -9,6 +9,7 @@ const surname = document.getElementById("surname");
 const email = document.getElementById("email");
 const message = document.getElementById("message");
 
+screen.orientation.lock('landscape');
 
 const introObserver = new IntersectionObserver(entries => {
     entries.forEach(entry => {
